@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="score">
+                <!-- Home Score -->    
+                <div class="box">
+                        <h3>HOME</h3>
+                            <div id="home-score">
+                                <p id="home-el">0</p>
+                            </div>
+                    <!--Home Point Adding -->
+                    <div class="add">
+                        <button id="addOne" onclick="addOne()">+1</button>
+                        <button id="addTwo" onclick="addTwo()">+2</button>
+                        <button id="addThree" onclick="addThree()">+3</button>
+                    </div>
+                </div>
+                <!-- end of box 1 -->
+                
+            <!-- Guest Score -->
+                <div class="box">
+                        <h3>GUEST</h3>
+                            <div id="guest-score">
+                                <p id="guest-el">0</p>
+                            </div>
+                    <!--Guest Point Adding -->
+                    <div class="add">
+                        <button id="plusOne" onclick="plusOne()">+1</button>
+                        <button id="plusTwo" onclick="plusTwo()">+2</button>
+                        <button id="plusThree" onclick="plusThree()">+3</button>
+                    </div>
+                    <!-- end of box 2-->
+                </div>
+            </div>
+            <!-- end of score -->
+        </div>
+        <!--- end of container --->
+        <script src="index.js"></script>
+    </body>
+</html>
