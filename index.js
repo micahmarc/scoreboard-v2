@@ -19,7 +19,6 @@ function addThree() {
     homeEl.textContent = homeScore
 }
 
-
 function plusOne() {
     guestScore += 1
     guestEl.textContent = guestScore
